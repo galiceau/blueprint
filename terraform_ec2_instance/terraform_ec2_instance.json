@@ -1,0 +1,34 @@
+{
+    "any-group-can-deploy": false,
+    "auto-historical-resources": false,
+    "build-items": [
+        {
+            "action-name": "EC2 INSTANCE TF",
+            "continue-on-failure": false,
+            "deploy-seq": 1,
+            "description": null,
+            "execute-in-parallel": false,
+            "name": "EC2 INSTANCE TF",
+            "run-on-scale-up": true,
+            "show-on-order-form": true,
+            "type": "terraform_plan"
+        }
+    ],
+    "description": "",
+    "favorited": true,
+    "icon": "download.png",
+    "is-orderable": true,
+    "management-actions": [],
+    "name": "Terraform EC2 Instance",
+    "resource-type": {
+        "icon": "",
+        "label": "Service",
+        "lifecycle": "ACTIVE",
+        "list-view-columns": [],
+        "name": "service",
+        "plural-label": null
+    },
+    "sequence": 0,
+    "show-recipient-field-on-order-form": false,
+    "teardown-items": []
+}
