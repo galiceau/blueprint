@@ -1,0 +1,9 @@
+{
+    "action-input-default-values": [],
+    "base-action-name": "Refresh AWS RDS Instance Data",
+    "dialog-message": "To be run after AWS has finished provisioning the RDS instance, this action will populate the DNS address in the \"RDS Instance\" parameter.",
+    "enabled": "True",
+    "extra-classes": "fas fa-sync",
+    "label": "Refresh RDS Instance Data",
+    "submit-button-label": "Refresh"
+}

@@ -1,0 +1,27 @@
+{
+    "action-inputs": [
+        {
+            "available-all-servers": false,
+            "description": "Pause Terraform Jobs after 'terraform plan' but before 'terraform apply' to manually verify Terraform changes.",
+            "field-dependency-controlling-set": [],
+            "field-dependency-dependent-set": [],
+            "global-options": [],
+            "hide-if-default-value": false,
+            "label": "Confirm Terraform Plan",
+            "name": "confirm_terraform_plan",
+            "relevant-osfamilies": [],
+            "required": true,
+            "show-as-attribute": false,
+            "show-on-servers": false,
+            "type": "BOOL"
+        }
+    ],
+    "description": "",
+    "local-path": "/var/opt/cloudbolt/terraform/plans/aws/ec2",
+    "max-retries": 0,
+    "name": "EC2 INSTANCE TF",
+    "plan-directory": null,
+    "resource-technologies": [],
+    "shared": "False",
+    "type": "Terraform Plan"
+}

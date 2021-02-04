@@ -1,0 +1,10 @@
+{
+    "description": "Discovers RDS instances available on AWS.",
+    "max-retries": 0,
+    "name": "RDS Instance Discovery",
+    "resource-technologies": [],
+    "script-filename": "sync_IsqRUzq.py",
+    "shared": "False",
+    "target-os-families": [],
+    "type": "CloudBolt Plug-in"
+}

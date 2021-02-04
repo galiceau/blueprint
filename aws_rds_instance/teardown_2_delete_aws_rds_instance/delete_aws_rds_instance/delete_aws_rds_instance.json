@@ -1,0 +1,10 @@
+{
+    "description": "",
+    "max-retries": 0,
+    "name": "Delete AWS RDS Instance",
+    "resource-technologies": [],
+    "script-filename": "delete_sQRiOtI.py",
+    "shared": "False",
+    "target-os-families": [],
+    "type": "CloudBolt Plug-in"
+}
