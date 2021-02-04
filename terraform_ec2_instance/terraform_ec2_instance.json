@@ -1,5 +1,5 @@
 {
-    "any-group-can-deploy": false,
+    "any-group-can-deploy": true,
     "auto-historical-resources": false,
     "build-items": [
         {
