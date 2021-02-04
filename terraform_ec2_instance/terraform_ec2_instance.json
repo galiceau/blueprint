@@ -1,6 +1,6 @@
 {
     "any-group-can-deploy": true,
-    "auto-historical-resources": false,
+    "auto-historical-resources": true,
     "build-items": [
         {
             "action-name": "EC2 INSTANCE TF",
