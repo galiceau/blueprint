@@ -1,0 +1,50 @@
+{
+    "any-group-can-deploy": true,
+    "auto-historical-resources": false,
+    "build-items": [
+        {
+            "action-name": "Create AWS RDS Instance",
+            "continue-on-failure": false,
+            "deploy-seq": 1,
+            "description": null,
+            "execute-in-parallel": false,
+            "name": "Create RDS instance",
+            "run-on-scale-up": true,
+            "show-on-order-form": false,
+            "type": "plugin"
+        }
+    ],
+    "description": "Create a relational database in AWS.\r\n\r\nThis blueprint illustrates a few techniques that make it easier for end users to use:\r\n\r\nAction inputs such as Storage Allocation and DB Name are constrained to appropriate values as required by AWS.\r\n\r\nThe create action supplies \"generated options\" functions for several action inputs: AWS Environment, RDS Engine, and Instance Class. Without these, users would have to type exact values like \"db.m4.10xlarge\", an error-prone proposition.\r\n\r\nThis blueprint will work on CloudBolt 7.2.2 or later.",
+    "favorited": false,
+    "icon": "aws-rds-logo_sQS03Ks_QfhpFTf.png",
+    "is-orderable": true,
+    "management-actions": [
+        {
+            "enabled": "True",
+            "label": "Refresh RDS Instance Data"
+        }
+    ],
+    "name": "AWS RDS Instance",
+    "resource-name-template": "AWS RDS Service 00X",
+    "resource-type": {
+        "icon": "fas fa-database",
+        "label": "Database",
+        "lifecycle": "ACTIVE",
+        "list-view-columns": [],
+        "name": "database",
+        "plural-label": null
+    },
+    "sequence": 0,
+    "show-recipient-field-on-order-form": false,
+    "teardown-items": [
+        {
+            "action-name": "Delete AWS RDS Instance",
+            "continue-on-failure": false,
+            "deploy-seq": 2,
+            "description": null,
+            "execute-in-parallel": false,
+            "name": "Delete RDS Instance",
+            "type": "teardown_plugin"
+        }
+    ]
+}
